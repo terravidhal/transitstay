@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600&display=swap');
+
+@import "tailwindcss";
+
+
+@theme {
+  --font-libre-bodoni: "Libre Bodoni", serif;
+  --font-inter: "Inter", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  /* margin: 0; */
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  /* Ajoute ces deux lignes */
+  /* min-height: 100vh; 
+  display: flex;
+  flex-direction: column; */
+}
+
+body {
+  background: white;
+}
+
+/* globals.css */
+/* @media (max-width: 767px) {
+  .desktop-only { display: none !important; }
+  .tablet-only  { display: none !important; }
+} */
