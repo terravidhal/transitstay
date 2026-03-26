@@ -22,7 +22,7 @@ export function ArticleCard({ image, category, readTime, title }: {
           <span className="text-[30px] leading-normal"> . </span>
           <span className="text-[18px] leading-normal">{readTime}</span>
         </p>
-        <p className="font-libre-bodoni font-normal text-[30px] text-black leading-normal w-full">{title}</p>
+        <p className="font-libre-bodoni font-medium text-[30px] text-black leading-normal w-full">{title}</p>
       </div>
     </div>
   );

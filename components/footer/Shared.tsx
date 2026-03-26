@@ -40,7 +40,30 @@ export function LogoVectors() {
 
 export const langSelector2 = (
   <button
-    className="flex items-center gap-[5px] px-[14px] py-[10px] rounded-full border border-white"
+    className="flex items-center gap-[5px] px-[14px]! py-[10px]! rounded-full border border-white"
+    aria-label="Select language: English"
+  >
+    <div className="relative w-[20px] h-[20px] rounded-full overflow-hidden">
+      <Image
+        src={imgImage44}
+        alt="UK flag"
+        fill
+        className="object-cover"
+      />
+    </div>
+    <span
+      className="text-white text-[12px] font-normal tracking-[0.24px]"
+      style={{ fontFamily: "var(--font-montserrat)", color: "rgba(255,255,255,0.6)" }}
+    >
+      English
+    </span>
+    <Image src={imgVuesaxLinearArrowDown} alt="" width={14} height={14} />
+  </button>
+);
+
+export const langSelector3 = (
+  <button
+    className="flex items-center gap-[5px] px-[14px]! py-[10px]! rounded-full border border-white"
     aria-label="Select language: English"
   >
     <div className="relative w-[20px] h-[20px] rounded-full overflow-hidden">

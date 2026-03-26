@@ -7,6 +7,9 @@ import {
 } from '../../lib/images';
 import { Tags, AuthorRow, gradLink } from './Shared';
 
+
+
+
 export default function IndexTablet() {
   return (
     <div className="tablet-only hidden md:block lg:hidden bg-white relative"
@@ -97,7 +100,11 @@ export default function IndexTablet() {
 
       <p className="absolute font-libre-bodoni font-medium text-[40px] text-black text-center leading-normal whitespace-nowrap" style={{ top: '1577px', left: '50%', transform: 'translateX(-50%)' }}>Behind The Lens</p>
       <div className="absolute bg-white overflow-hidden rounded-[20px]"
-        style={{ left: '50%', top: '1659px', transform: 'translateX(-50%)', width: '690px', height: '258px', border: '0.35px solid #8f9cd3' }}>
+        style={{ left: '50%', top: '1659px', 
+        transform: 'translateX(-50%)', 
+        width: '690px', height: '258px', 
+        border: '0.35px solid #8f9cd3' ,
+        }}>
         <div className="absolute rounded-[120.518px]" 
            style={{ left: '523px', top: '50%', 
            transform: 'translateY(-50%)', width: '145px', 
@@ -199,7 +206,14 @@ export default function IndexTablet() {
       </div>
       {([4222.13, 4391] as number[]).map((top, i) => (
         <div key={i} className="absolute bg-white overflow-hidden"
-          style={{ left: 'calc(70% - 35.33px)', top: `${top}px`, transform: 'translateX(-50%)', width: '447.465px', height: '143.872px', borderRadius: '12.193px', border: '0.213px solid #8f9cd3' }}>
+          style={{ left: 'calc(70% - 35.33px)', 
+          top: `${top}px`, transform: 'translateX(-50%)',
+           width: '447.465px', height: '143.872px', 
+           borderRadius: '12.193px', 
+           //border: '0.213px solid #8f9cd3' ,
+        boxShadow: '0px 1px 2px rgba(0,0,0,0.04),0px 5px 6px rgba(0,0,0,0.03),0px 12px 8px rgba(0,0,0,0.02),0px 20px 10px rgba(0,0,0,0.01),0px 35px 12px rgba(0,0,0,0)'
+
+           }}>
           <div className="absolute rounded-[121.925px]" style={{ left: '334.68px', top: '50%', transform: 'translateY(-50%)', width: '90.834px', height: '113.39px', boxShadow: '0px 4px 8px rgba(0,0,0,0.1),0px 14px 14px rgba(0,0,0,0.09),0px 32px 19px rgba(0,0,0,0.05),0px 57px 23px rgba(0,0,0,0.01),0px 89px 25px rgba(0,0,0,0)' }}>
             <img alt="" className="absolute inset-0 object-cover pointer-events-none w-full h-full rounded-[121.925px]" src={imgImage56} />
           </div>

@@ -10,6 +10,7 @@ export default function FooterMobile() {
         width: '100%',
         maxWidth: '379px',
         margin: '0 auto',
+        marginTop: '120px',
         background: 'linear-gradient(90deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 100%), linear-gradient(-72.053deg, rgb(0,0,0) 28.248%, rgb(142,151,180) 87.818%)',
       }}
     >
