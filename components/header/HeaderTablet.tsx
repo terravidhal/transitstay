@@ -19,7 +19,9 @@ export default function HeaderTablet() {
           {/* Back */}
           <div
             className="relative overflow-hidden rounded-[100px] shrink-0"
-            style={{ width: '205px', height: '70px', backdropFilter: 'blur(45px)' }}
+            style={{ width: '205px', height: '70px', 
+             // backdropFilter: 'blur(45px)' 
+            }}
           >
             <div className="absolute flex gap-[5px] items-center" style={{ left: 0, top: '25px' }}>
               <div className="flex items-center justify-center relative shrink-0">

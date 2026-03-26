@@ -63,7 +63,11 @@ export default function IndexMobile() {
             <div className="flex flex-col gap-[29px] items-start w-full">
               <div
                 className="flex items-center justify-center overflow-hidden px-[41px] py-[12px] rounded-[100px] shrink-0"
-                style={{ background: 'linear-gradient(to right, #8f9cd3, #ffcaa4)', width: '155px', height: '40px' }}
+                style={{ 
+                  background: 'linear-gradient(to right, #8f9cd3, #ffcaa4)', 
+                  width: '155px', 
+                  height: '40px' ,
+                }}
               >
                 <p className="font-libre-bodoni font-normal text-[14px] text-white whitespace-nowrap leading-normal">Photo Journey</p>
               </div>
@@ -109,13 +113,13 @@ export default function IndexMobile() {
                 <p className="mb-0">
                   Chase soft light, not just golden light. Morocco's sun can be dramatic. That's a gift, but it can also be unforgiving—especially around midday when shadows get sharp and highlights blow out fast. Your most flattering images usually come from:Early morning, when the medina wakes slowly and you can shoot clean streets before the crowdsLate afternoon to sunset, when warm tones add depth and faces look softe. Blue hour,{" "}
                   <span
-                    className="rounded-md px-1 font-inter font-medium not-italic text-[17px] text-white"
+                    className="rounded-md px-1! py-0.2! font-inter font-medium not-italic text-[17px] text-white"
                     style={{ background: 'linear-gradient(92.329deg, rgb(173,84,240) 0.236%, rgb(210,77,188) 89.259%)', height: '27px' }}
                   >
                     when lantern starts glowing
-                  </span>
+                  </span>{' '}
+                <span>and tiled courtyards look magical. Shaded alleys, where contrast becomes art and light falls in ribbons. If you only remember one thing, remember this: the best Morocco photos often happen in transitions—between day and night, between indoors and outdoors, between shadow and sunlight.</span>
                 </p>
-                <p>and tiled courtyards look magical. Shaded alleys, where contrast becomes art and light falls in ribbons. If you only remember one thing, remember this: the best Morocco photos often happen in transitions—between day and night, between indoors and outdoors, between shadow and sunlight.</p>
               </div>
               <div
                 className="flex items-center justify-center overflow-hidden bg-white mt-4"
@@ -259,12 +263,12 @@ export default function IndexMobile() {
               Markets are packed with texture: spices, slippers, textiles, lanterns. Your job is to bring order to the visual overload. Choose one "anchor" subject (like a stack of saffron or a wall of lanterns.
               Use hanging rugs{' '}
               <span
-                className="font-inter font-medium not-italic text-white rounded-[6px] inline-flex px-2"
+                className="font-inter font-medium not-italic text-white rounded-[6px] inline-flex px-2! py-0.5!"
                 style={{ height: '27px', lineHeight: '27px', background: 'linear-gradient(92.329deg, rgb(173,84,240) 0.236%, rgb(210,77,188) 89.259%)' }}
               >
                 calm after the storm
-              </span>{' '}
-              for one person to step into the frame—human + texture = story. Riads: calm after the storm<br />
+              </span><br />
+              for one person to step into the frame—human + texture = story. Riads: calm after the storm
               Riads are interior gardens with fountains, tiled walls, and symmetry. Perfect for clean, elegant photos. Stand centered for symmetry. Capture reflections in water. Shoot details: carved wood, brass handles, mosaic edges. Gardens and graphic lines (if you visit them).
             </p>
           </div>
