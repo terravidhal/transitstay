@@ -21,7 +21,7 @@ export default function FooterDesktop() {
               <LogoVectors />
             </div>
             <p
-              className="font-inter font-light not-italic text-[14px] leading-normal tracking-[0.28px] mt-[24px]"
+              className="font-inter  opacity-[0.8] font-light not-italic text-[14px] leading-normal tracking-[0.28px] mt-[24px]"
               style={{ color: 'rgba(255,255,255,0.8)', width: '220px' }}
             >
               Your trusted companion for personalized travel suggestions. You can also get the mobile application
@@ -34,23 +34,23 @@ export default function FooterDesktop() {
 
           <div className="flex flex-col gap-[19px] items-start leading-normal" style={{ width: '142px' }}>
             <p className="font-libre-bodoni font-normal text-[22px] text-white">Quick Links</p>
-            <div className="flex flex-col gap-[32px] items-start font-inter font-light not-italic text-[16px] tracking-[0.32px] w-full" style={{ color: 'rgba(255,255,255,0.8)' }}>
+            <div className="flex opacity-[0.7] flex-col gap-[32px] items-start font-inter font-light not-italic text-[16px] tracking-[0.32px] w-full" style={{ color: 'rgba(255,255,255,0.8)' }}>
               <p>My Moodboards</p><p>Search Discovery</p><p>Magazine</p><p>About Us</p>
             </div>
           </div>
 
-          <div className="flex flex-col gap-[19px] items-start" style={{ width: '220px' }}>
+          <div className="flex  flex-col gap-[19px] items-start" style={{ width: '220px' }}>
             <p className="font-libre-bodoni font-normal text-[22px] text-white leading-normal">Contact &amp; Legal</p>
-            <div className="flex flex-col gap-[32px] items-start w-full font-inter font-light leading-normal not-italic text-[16px] tracking-[0.32px]" style={{ color: 'rgba(255,255,255,0.8)' }}>
+            <div className="flex opacity-[0.7] flex-col gap-[32px] items-start w-full font-inter font-light leading-normal not-italic text-[16px] tracking-[0.32px]" style={{ color: 'rgba(255,255,255,0.8)' }}>
               <p>Contact Us</p><p>Security</p><p>Data Deletion</p><p>Privacy Policy</p>
             </div>
           </div>
 
           <div className="flex flex-col gap-[20px] items-start" style={{ width: '365px' }}>
-            <p className="font-libre-bodoni font-normal text-[22px] text-white text-center leading-normal w-full">
+            <p className="font-libre-bodoni text-start font-normal text-[22px] text-white text-center leading-normal w-full">
               Subscribe To Our Newsletter
             </p>
-            <p className="font-inter font-light not-italic text-[16px] leading-normal tracking-[0.32px] w-[330px]" style={{ color: 'rgba(255,255,255,0.8)', height: '38px' }}>
+            <p className="font-inter opacity-[0.7] font-light not-italic text-[16px] leading-normal tracking-[0.32px] w-[330px]" style={{ color: 'rgba(255,255,255,0.8)', height: '38px' }}>
               Get travel tips and exclusive offers delivered to your inbox.
             </p>
             <div className="relative overflow-hidden rounded-[100px] h-[45px] w-full" style={{ border: '1px solid rgba(255,255,255,0.5)' }}>
@@ -61,12 +61,12 @@ export default function FooterDesktop() {
                 <p className="font-montserrat font-normal text-[12px] text-white tracking-[0.24px] leading-normal whitespace-nowrap">Subscribe</p>
               </div>
             </div>
-            <p className="font-inter font-light not-italic text-[16px] leading-none tracking-[0.32px] w-full" style={{ color: 'rgba(255,255,255,0.8)' }}>
+            <p className="font-inter opacity-[0.8] font-light not-italic text-[16px] leading-none tracking-[0.32px] w-full" style={{ color: 'rgba(255,255,255,0.8)' }}>
               <span className="leading-normal">{`By subscribing, you agree to receive marketing emails from TransitStay. You can unsubscribe at any time. Read our `}</span>
               <span className="font-inter font-medium leading-normal underline">Privacy Policy</span>
               <span className="leading-normal">{` to learn how we handle your data.`}</span>
             </p>
-            <div className="relative h-[26px] w-[211px]">
+            <div className="relative h-[26px] w-[211px] ml-[150px] mt-[70px]">
               <img alt="" className="absolute block w-full h-full" src={imgSocialMedia} />
             </div>
           </div>
@@ -80,7 +80,7 @@ export default function FooterDesktop() {
           className="absolute flex items-center justify-between"
           style={{ left: '75px', right: '75px', top: '718px' }}
         >
-          <div className="flex items-center gap-[55px] font-inter font-light not-italic text-[16px] tracking-[0.32px] whitespace-nowrap leading-normal" style={{ color: 'rgba(255,255,255,0.6)' }}>
+          <div className="flex opacity-[0.8] items-center gap-[55px] font-inter font-light not-italic text-[16px] tracking-[0.32px] whitespace-nowrap leading-normal" style={{ color: 'rgba(255,255,255,0.6)' }}>
             <p>© 2025 TransitStay. All rights reserved.</p>
             <p>Terms of Service</p>
           </div>
