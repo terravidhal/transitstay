@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from 'react';
-import { articles, ArticleCard, ArrowButton } from './Shared';
+import { articles, ArticleCard, ArrowButton, ArrowButton2 } from './Shared';
 
 export default function RelatedArticlesMobile() {
   const [index, setIndex] = useState(0);
@@ -15,8 +15,8 @@ export default function RelatedArticlesMobile() {
   return (
     <div className="md:hidden flex flex-col gap-6 w-full">
       <div className="relative flex items-center justify-center">
-        <div className="absolute left-[78px] top-[102px] z-10">
-          <ArrowButton left onClick={prev} />
+        <div className="absolute left-[55px] top-[55px] z-10">
+          <ArrowButton2 left onClick={prev} />
         </div>
         <div className="overflow-hidden" style={{ width: 'calc(100% - 144px)' }}>
           <div
@@ -30,8 +30,8 @@ export default function RelatedArticlesMobile() {
             ))}
           </div>
         </div>
-        <div className="absolute right-[78px] top-[102px] z-10">
-          <ArrowButton onClick={next} />
+        <div className="absolute right-[55px] top-[55px] z-10">
+          <ArrowButton2 onClick={next} />
         </div>
       </div>
       <div className="flex gap-[14px] items-center justify-center">

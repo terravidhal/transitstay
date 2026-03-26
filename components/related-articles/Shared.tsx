@@ -13,7 +13,9 @@ export function ArticleCard({ image, category, readTime, title }: {
   return (
     <div className="flex flex-col gap-[31px] items-center w-full shrink-0">
       <div className="relative w-full rounded-[400px] overflow-hidden"
-        style={{ aspectRatio: '395/276', boxShadow: '0px 7px 14px rgba(0,0,0,0.1),0px 25px 25px rgba(0,0,0,0.09),0px 58px 35px rgba(0,0,0,0.05)' }}>
+        style={{ aspectRatio: '395/276', 
+        boxShadow: '0px 4px 18px rgba(0,0,0,0.08),0px 15px 35px rgba(0,0,0,0.06),0px 30px 60px rgba(0,0,0,0.05)' 
+        }}>
         <img alt="" className="absolute inset-0 object-cover w-full h-full rounded-[400px]" src={image} />
       </div>
       <div className="flex flex-col gap-[15px] items-center text-center w-full">
@@ -35,7 +37,24 @@ export function ArrowButton({ left = false, onClick }: { left?: boolean; onClick
       className="bg-white rounded-full flex items-center justify-center shrink-0 cursor-pointer"
       style={{
         width: '60px', height: '60px', border: 'none', outline: 'none',
-        boxShadow: '0px 7px 14px rgba(0,0,0,0.1),0px 25px 25px rgba(0,0,0,0.09),0px 58px 35px rgba(0,0,0,0.05)'
+        boxShadow: '0px 4px 18px rgba(0,0,0,0.06),0px 15px 35px rgba(0,0,0,0.04),0px 30px 60px rgba(0,0,0,0.02)'
+      }}
+    >
+      <div style={{ transform: left ? 'rotate(180deg)' : undefined, width: '30px', height: '30px' }}>
+        <img alt="" className="block w-full h-full" src={imgIcons8MoreThan22} />
+      </div>
+    </button>
+  );
+}
+
+export function ArrowButton2({ left = false, onClick }: { left?: boolean; onClick: () => void }) {
+  return (
+    <button
+      onClick={onClick}
+      className="bg-white rounded-full flex items-center justify-center shrink-0 cursor-pointer"
+      style={{
+        width: '50px', height: '50px', border: 'none', outline: 'none',
+        boxShadow: '0px 4px 18px rgba(0,0,0,0.06),0px 15px 35px rgba(0,0,0,0.04),0px 30px 60px rgba(0,0,0,0.02)'
       }}
     >
       <div style={{ transform: left ? 'rotate(180deg)' : undefined, width: '30px', height: '30px' }}>

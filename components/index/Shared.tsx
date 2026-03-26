@@ -42,12 +42,12 @@ export function AuthorRow({ scale = 1 }: { scale?: number }) {
           <div className="relative" style={{ width: s(38), height: s(38), gridColumn: 1, gridRow: 1, marginLeft: s(sm ? 4.33 : 5.98), marginTop: s(sm ? 4.33 : 5.98) }}><img alt="" className="absolute block w-full h-full" src={imgEllipse6} /></div>
         </div>
         <p className="font-inter font-normal not-italic text-center whitespace-nowrap leading-normal"
-          style={{ fontSize: s(sm ? 11.55 : 16), color: 'rgba(0,0,0,0.8)', gridColumn: 1, gridRow: 1, marginLeft: s(sm ? 13 : 13), marginTop: s(sm ? 17.28 : 14) }}>TransitStay</p>
+          style={{ fontSize: s(sm ? 15.55 : 16), color: 'rgba(0,0,0,0.8)', gridColumn: 1, gridRow: 1, marginLeft: s(sm ? 13 : 13), marginTop: s(sm ? 12.28 : 14) }}>TransitStay</p>
       </div>
       <div className="relative shrink-0" style={{ width: s(sm ? 5.053 : 7), height: s(sm ? 5.053 : 7) }}><img alt="" className="absolute block w-full h-full" src={imgEllipse79} /></div>
-      <p className="font-inter font-normal not-italic text-center whitespace-nowrap leading-normal" style={{ fontSize: s(sm ? 11.55 : 16), color: 'rgba(0,0,0,0.8)' }}>12 min read</p>
+      <p className="font-inter font-normal not-italic text-center whitespace-nowrap leading-normal" style={{ fontSize: s(sm ? 15.55 : 16), color: 'rgba(0,0,0,0.8)' }}>12 min read</p>
       <div className="relative shrink-0" style={{ width: s(sm ? 5.053 : 7), height: s(sm ? 5.053 : 7) }}><img alt="" className="absolute block w-full h-full" src={imgEllipse79} /></div>
-      <p className="font-inter font-normal not-italic text-center whitespace-nowrap leading-normal" style={{ fontSize: s(sm ? 11.55 : 16), color: 'rgba(0,0,0,0.8)' }}>August 20, 2025</p>
+      <p className="font-inter font-normal not-italic text-center whitespace-nowrap leading-normal" style={{ fontSize: s(sm ? 15.55 : 16), color: 'rgba(0,0,0,0.8)' }}>August 20, 2025</p>
     </div>
   );
 }

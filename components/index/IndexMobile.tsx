@@ -7,6 +7,8 @@ import {
 } from '../../lib/images';
 import { Tags, AuthorRow, gradLink } from './Shared';
 
+
+
 export default function IndexMobile() {
   return (
     <div className="md:hidden bg-white w-full overflow-x-hidden">
@@ -141,17 +143,26 @@ export default function IndexMobile() {
             {/* Portrait photo (absolute légitime : superposé sur la carte) */}
             <div
               className="absolute rounded-[120.518px]"
-              style={{ left: '238.61px', top: '50%', transform: 'translateY(-50%)', width: '84px', height: '131px', boxShadow: '0px 1px 2px rgba(0,0,0,0.04),0px 2px 3px rgba(0,0,0,0.02),0px 4px 2px rgba(0,0,0,0.01),0px 5px 2px rgba(0,0,0,0.01),0px 10px 4px rgba(0,0,0,0)' }}
+              style={{ left: '238.61px', top: '50%', 
+                transform: 'translateY(-50%)', width: '84px', 
+                height: '131px', 
+                boxShadow:'0px 4px 8px rgba(0,0,0,0.1),0px 14px 14px rgba(0,0,0,0.09),0px 32px 19px rgba(0,0,0,0.05),0px 57px 23px rgba(0,0,0,0.01),0px 89px 25px rgba(0,0,0,0)' 
+              }}
             >
               <img alt="" className="absolute inset-0 object-cover pointer-events-none w-full h-full" style={{ borderRadius: '120.518px' }} src={imgImage62} />
             </div>
 
-            <div className="absolute flex items-center" style={{ left: '12px', top: '25px' }}>
+            <div className="absolute flex items-center" 
+            style={{ left: '12px', 
+              top: '25px' ,
+            }}>
               <div className="relative shrink-0 w-[30.272px] h-[30.272px]"><img alt="" className="absolute inset-0 object-cover pointer-events-none w-full h-full" src={imgImage55} /></div>
               <p className="font-inter font-normal not-italic text-[9.38px] text-black text-center whitespace-nowrap leading-normal">YouTube</p>
             </div>
             <p className="absolute font-libre-bodoni font-normal text-[12px] text-black leading-normal" style={{ left: '15.61px', top: '59.81px', width: '212px' }}>Essential Viewing: Capturing magic moments</p>
-            <p className="absolute font-inter font-normal not-italic text-[#afafaf] text-[10px] leading-normal" style={{ left: '15.61px', top: '97.81px', width: '212px' }}>Experience the tranquil beauty of Santorini sunrise through this calming 20mins video.</p>
+            <p className="absolute font-inter font-normal not-italic text-[#afafaf] text-[10px] leading-normal" style={{ left: '15.61px', top: '97.81px', width: '212px' }}>
+              Experience the tranquil beauty of Santorini sunrise through this calming 20mins video. Perfect for planning your morning routine or simply finding inner peace.
+            </p>
           </div>
 
           {/* Body text */}
@@ -264,7 +275,11 @@ export default function IndexMobile() {
             marginLeft: 'auto',
             marginRight: 'auto',
           }}>
-            <div className="rounded-[121.925px] overflow-hidden" style={{ width: '217.027px', height: '352.973px' }}>
+            <div className="rounded-[121.925px] overflow-hidden" 
+            style={{ width: '217.027px',
+             height: '352.973px' ,
+             boxShadow:'0px 4px 8px rgba(0,0,0,0.1),0px 14px 14px rgba(0,0,0,0.09),0px 32px 19px rgba(0,0,0,0.05),0px 57px 23px rgba(0,0,0,0.01),0px 89px 25px rgba(0,0,0,0)' 
+             }}>
               <img alt="" className="w-full h-full object-cover" src={imgImage94} />
             </div>
             {/* Copyright (absolute légitime : overlay sur image) */}
@@ -290,7 +305,10 @@ export default function IndexMobile() {
               {/* Portrait (absolute légitime : superposé sur la carte) */}
               <div
                 className="absolute rounded-[101.09px]"
-                style={{ left: '265px', top: '50%', transform: 'translateY(-50%)', width: '65px', height: '94px', boxShadow: '0 9px 20px rgba(224,224,224,0.10), 0 37px 37px rgba(224,224,224,0.09)' }}
+                style={{ left: '265px', top: '50%', transform: 'translateY(-50%)', width: '65px', 
+                  height: '94px', 
+                  boxShadow:'0px 4px 8px rgba(0,0,0,0.1),0px 14px 14px rgba(0,0,0,0.09),0px 32px 19px rgba(0,0,0,0.05),0px 57px 23px rgba(0,0,0,0.01),0px 89px 25px rgba(0,0,0,0)' 
+                }}
               >
                 <img alt="" className="absolute inset-0 object-cover pointer-events-none w-full h-full rounded-[101.09px]" src={imgImage56} />
               </div>
