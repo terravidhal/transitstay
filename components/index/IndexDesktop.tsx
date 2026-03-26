@@ -10,6 +10,9 @@ import {
 } from '../../lib/images';
 import { p, Tags, AuthorRow, Highlight, gradLink } from './Shared';
 
+
+boxShadow:'0px 1px 2px rgba(0,0,0,0.04),0px 5px 6px rgba(0,0,0,0.03),0px 12px 8px rgba(0,0,0,0.02),0px 20px 10px rgba(0,0,0,0.01),0px 35px 12px rgba(0,0,0,0)'
+
 export default function IndexDesktop() {
   return (
     <div className="desktop-only hidden lg:block bg-white" style={{ width: '100%', maxWidth: '1440px', margin: '0 auto', overflowX: 'hidden' }}>
@@ -71,7 +74,7 @@ export default function IndexDesktop() {
         {/* Contenu héro gauche */}
         <div className="relative flex flex-col items-start" style={{ marginLeft: p(75), maxWidth: '46%', zIndex: 1 }}>
           {/* Badge */}
-          <div className="flex items-center justify-center overflow-hidden px-[41px] py-[12px] rounded-[100px] shrink-0"
+          <div className="flex items-center justify-center overflow-hidden px-[41px]! py-[12px]! rounded-[100px] shrink-0"
             style={{ background: 'linear-gradient(to right, #8f9cd3, #ffcaa4)', width: '189px' }}>
             <p className="font-libre-bodoni font-normal text-[20px] text-white whitespace-nowrap leading-normal">Photo Journey</p>
           </div>
@@ -112,16 +115,16 @@ export default function IndexDesktop() {
               and you can shoot clean streets before the crowds.
               Late afternoon to sunset, when warm tones add depth and
               faces look softer.{" "}
-              <span className='rounded-md px-1 font-inter font-medium not-italic text-[17px] text-white'
+              <span className='rounded-md px-2! py-0.5! font-inter font-medium not-italic text-[17px] text-white'
                 style={{
                   background: 'linear-gradient(92.329deg, rgb(173,84,240) 0.236%, rgb(210,77,188) 89.259%)',
                   width: '24.59%',
                   height: '27px',
                 }}
               >when lantern starts glowing
-              </span>
+              </span>{" "}
+            <span>and tiled courtyards look magical. Shaded alleys, where contrast becomes art and light falls in ribbons. If you only remember one thing, remember this: the best Morocco photos often happen in transitions—between day and night, between indoors and outdoors, between shadow and sunlight.</span>
             </p>
-            <p>and tiled courtyards look magical. Shaded alleys, where contrast becomes art and light falls in ribbons. If you only remember one thing, remember this: the best Morocco photos often happen in transitions—between day and night, between indoors and outdoors, between shadow and sunlight.</p>
           </div>
           <div className="absolute flex items-center justify-center overflow-hidden px-[9px] py-[18px] rounded-[100px] bg-white"
             style={{ left: '50%', top: '477px', transform: 'translateX(-50%)', width: '290px', height: '60px' }}>
@@ -207,7 +210,9 @@ export default function IndexDesktop() {
             {/* Colonne droite — images */}
             <div className="relative shrink-0" style={{ flexBasis: '42%', minWidth: 0, height: '600px' }}>
               <div className="absolute rounded-[200px]"
-                style={{ left: 0, top: 0, width: '356px', height: '535px', boxShadow: '0px 7.368px 14.737px rgba(0,0,0,0.1),0px 25.789px 25.789px rgba(0,0,0,0.09),0px 58.947px 35px rgba(0,0,0,0.05),0px 105px 42.368px rgba(0,0,0,0.01),0px 163.947px 46.053px rgba(0,0,0,0)' }}>
+                style={{ left: 0, top: 0, width: '356px', height: '535px', 
+               boxShadow:'0px 4px 8px rgba(0,0,0,0.1),0px 14px 14px rgba(0,0,0,0.09),0px 32px 19px rgba(0,0,0,0.05),0px 57px 23px rgba(0,0,0,0.01),0px 89px 25px rgba(0,0,0,0)'
+                }}>
                 <img alt="" className="absolute inset-0 object-cover pointer-events-none w-full h-full rounded-[200px]" src={imgImage64} />
               </div>
               <div className="absolute flex items-center justify-center overflow-hidden px-[8px] py-[4px]"
@@ -243,7 +248,7 @@ export default function IndexDesktop() {
             Markets are packed with texture: spices, slippers, textiles, lanterns. Your job is to bring order to the visual overload. Choose one "anchor" subject (like a stack of saffron or a wall of lanterns.
             Use hanging rugs{' '}
             <span
-              className="font-inter font-medium not-italic text-white rounded-[6px] inline-flex px-2"
+              className="font-inter font-medium not-italic text-white rounded-[6px] inline-flex px-2! py-0.5!"
               style={{
                 height: '27px',
                 lineHeight: '27px',
@@ -280,15 +285,15 @@ export default function IndexDesktop() {
             {[0, 1].map((i) => (
               <div key={i} className="bg-white overflow-hidden rounded-[20px] relative"
                 style={{ width: '100%', height: '236px', 
-                border: '0.35px solid #8f9cd3', 
-                boxShadow: '0px 9px 20px rgba(224,224,224,0.1)' 
+               // border: '0.35px solid #8f9cd3', 
+                boxShadow:'0px 1px 2px rgba(0,0,0,0.04),0px 5px 6px rgba(0,0,0,0.03),0px 12px 8px rgba(0,0,0,0.02),0px 20px 10px rgba(0,0,0,0.01),0px 35px 12px rgba(0,0,0,0)'
                 }}
                 >
                 <div className="absolute rounded-[200px]" 
                 style={{ right: '16px', top: '50%', 
                 transform: 'translateY(-50%)', width: '149px', 
                 height: '186px',
-                boxShadow: '0px 9px 20px rgba(224,224,224,0.1)'
+                boxShadow:'0px 4px 8px rgba(0,0,0,0.1),0px 14px 14px rgba(0,0,0,0.09),0px 32px 19px rgba(0,0,0,0.05),0px 57px 23px rgba(0,0,0,0.01),0px 89px 25px rgba(0,0,0,0)'
                  }}>
                   <img alt="" className="absolute inset-0 object-cover pointer-events-none w-full h-full rounded-[200px]" src={imgImage56} />
                 </div>
@@ -337,9 +342,8 @@ If you can, find a rooftop café view. From above, the square becomes a living p
             <span className="font-bold" style={{ fontFamily: 'Inter, sans-serif', lineHeight: '27px', fontStyle: 'normal' }}>2)Souks: color with control</span>
             <span style={{ lineHeight: '27px' }}><br />
            Markets are packed with texture: spices, slippers, textiles, lanterns. Your job is to bring order to the visual overload. Choose one “anchor” subject (like a stack of saffron or a wall of lanterns. Use hanging rugs as a backgroundWait for one person to step into the frame—
-             {' '}
             <span
-              className="font-inter font-medium not-italic text-white rounded-[6px] inline-flex px-2"
+              className="font-inter font-medium not-italic text-white rounded-[6px] inline-flex px-2! py-0.5!"
               style={{
                 height: '27px',
                 lineHeight: '27px',
