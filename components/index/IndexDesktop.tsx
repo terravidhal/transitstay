@@ -17,7 +17,7 @@ export default function IndexDesktop() {
   return (
     <div className="desktop-only hidden lg:block bg-white" style={{ width: '100%', maxWidth: '1440px', margin: '0 auto', overflowX: 'hidden' }}>
 
-      {/* ── SECTION HERO (flux normal) ── */}
+      {/* ── SECTION HERO  ── */}
       <section className="relative" style={{ paddingTop: '176px', paddingBottom: '169px' }}>
 
         {/* Ellipses bg */}
@@ -93,7 +93,7 @@ export default function IndexDesktop() {
         </div>
       </section>
 
-      {/* ── GRADIENT CARD (flux normal, centré) ── */}
+      {/* ── GRADIENT CARD  ── */}
       <section className="flex justify-center px-4" style={{ paddingBottom: '128px' }}>
         <div className="overflow-hidden rounded-[600px] w-full"
           style={{ maxWidth: '968px', height: '581px', background: 'linear-gradient(to right, #8f9cd3, #ffcaa4)', border: '0.35px solid #8f9cd3', boxShadow: '0px 229px 64px rgba(224,224,224,0),0px 146px 59px rgba(224,224,224,0.01),0px 82px 49px rgba(224,224,224,0.05),0px 37px 37px rgba(224,224,224,0.09),0px 9px 20px rgba(224,224,224,0.1)', position: 'relative' }}>

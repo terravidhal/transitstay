@@ -19,18 +19,8 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
-  /* Ajoute ces deux lignes */
-  /* min-height: 100vh; 
-  display: flex;
-  flex-direction: column; */
 }
 
 body {
   background: white;
 }
-
-/* globals.css */
-/* @media (max-width: 767px) {
-  .desktop-only { display: none !important; }
-  .tablet-only  { display: none !important; }
-} */

@@ -14,7 +14,7 @@ export default function IndexMobile() {
     <div className="md:hidden bg-white w-full overflow-x-hidden">
       <div className="relative mx-auto overflow-hidden" style={{ maxWidth: '375px' }}>
 
-        {/* ── Decorative blobs (absolute légitimes : superposition visuelle) ── */}
+        {/* ── Decorative blobs  ── */}
         <div
           className="absolute pointer-events-none"
           style={{ height: '2325.934px', left: '-125px', top: '527px', width: '1564px', overflow: 'hidden' }}
@@ -144,7 +144,7 @@ export default function IndexMobile() {
             className="relative bg-white overflow-hidden mx-auto"
             style={{ width: '335px', height: '170px', borderRadius: '9.564px', border: '0.167px solid #8f9cd3' }}
           >
-            {/* Portrait photo (absolute légitime : superposé sur la carte) */}
+            {/* Portrait photo  */}
             <div
               className="absolute rounded-[120.518px]"
               style={{ left: '238.61px', top: '50%', 
@@ -221,7 +221,7 @@ export default function IndexMobile() {
               <div className="rounded-[109.35px] overflow-hidden" style={{ width: '194.643px', height: '292.511px' }}>
                 <img alt="" className="w-full h-full object-cover" src={imgImage64} />
               </div>
-              {/* Copyright (absolute légitime : overlay sur image) */}
+              {/* Copyright */}
               <div
                 className="absolute bottom-[32px] left-1/2 -translate-x-1/2 flex items-center justify-center overflow-hidden"
                 style={{ width: '115.364px', height: '33.898px', padding: '2.187px 4.374px', backgroundColor: 'rgba(0,0,0,0.5)' }}
@@ -235,7 +235,7 @@ export default function IndexMobile() {
               <div className="rounded-[164.025px] overflow-hidden" style={{ width: '142.702px', height: '142.702px' }}>
                 <img alt="" className="w-full h-full object-cover" src={imgImage93} />
               </div>
-              {/* Copyright (absolute légitime : overlay sur image) */}
+              {/* Copyright  */}
               <div
                 className="absolute bottom-[96px] left-1/2 -translate-x-1/2 flex items-center justify-center overflow-hidden"
                 style={{ width: '91.307px', height: '33.898px', padding: '2.187px 4.374px', backgroundColor: 'rgba(0,0,0,0.5)' }}
@@ -286,7 +286,7 @@ export default function IndexMobile() {
              }}>
               <img alt="" className="w-full h-full object-cover" src={imgImage94} />
             </div>
-            {/* Copyright (absolute légitime : overlay sur image) */}
+            {/* Copyright  */}
             <div
               className="absolute bottom-[20px] left-1/2 -translate-x-1/2 flex items-center justify-center overflow-hidden"
               style={{ width: '109.123px', height: '46.941px', padding: '2.439px 4.877px', backgroundColor: 'rgba(0,0,0,0.5)' }}
@@ -306,7 +306,7 @@ export default function IndexMobile() {
                 boxShadow: '0px 1px 2px rgba(0,0,0,0.04),0px 5px 6px rgba(0,0,0,0.03),0px 12px 8px rgba(0,0,0,0.02),0px 20px 10px rgba(0,0,0,0.01),0px 35px 12px rgba(0,0,0,0)'
               }}
             >
-              {/* Portrait (absolute légitime : superposé sur la carte) */}
+              {/* Portrait  */}
               <div
                 className="absolute rounded-[101.09px]"
                 style={{ left: '265px', top: '50%', transform: 'translateY(-50%)', width: '65px', 
@@ -344,7 +344,7 @@ export default function IndexMobile() {
             <div className="overflow-hidden" style={{ width: '347px', height: '262.694px', borderRadius: '244.366px' }}>
               <img alt="" className="w-full h-full object-cover" src={imgImage98} />
             </div>
-            {/* Copyright (absolute légitime : overlay sur image) */}
+            {/* Copyright */}
             <div
               className="absolute bottom-[22px] left-1/2 -translate-x-1/2 flex items-center justify-center overflow-hidden"
               style={{ padding: '3.604px 7.208px', width: '166.695px', backgroundColor: 'rgba(0,0,0,0.5)' }}
