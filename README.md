@@ -1,6 +1,6 @@
-# Photo Journey - Senior Frontend Technical Test
+# Senior Frontend Technical Test
 
-Ce projet est une landing page responsive "pixel-perfect" réalisée avec **Next.js**, **TypeScript** et **Tailwind CSS**. Elle présente une expérience immersive sur les cités impériales du Maroc.
+Ce projet est une landing page responsive "pixel-perfect" réalisée avec **Next.js**, **TypeScript** et **Tailwind CSS**.
 
 ##  Installation
 
