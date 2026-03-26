@@ -44,7 +44,7 @@ export default function IndexTablet() {
 
       <div className="absolute flex flex-col items-start"
         style={{ left: '40px', top: '127px', width: '50%', maxWidth: '465px', zIndex: 1 }}>
-        <div className="flex items-center justify-center overflow-hidden px-[41px] py-[12px] rounded-[100px] shrink-0"
+        <div className="flex items-center justify-center overflow-hidden px-[41px]! py-[12px]! rounded-[100px] shrink-0"
           style={{ background: 'linear-gradient(to right, #8f9cd3, #ffcaa4)', width: '189px' }}>
           <p className="font-libre-bodoni font-normal text-[18px] text-white whitespace-nowrap leading-normal">Photo Journey</p>
         </div>
@@ -79,16 +79,16 @@ export default function IndexTablet() {
                streets before the crowdsLate afternoon to sunset, 
                when warm tones add depth and faces look softe. 
                Blue hour,{" "}
-              <span className='rounded-md px-1 font-inter font-medium not-italic text-[17px] text-white'
+              <span className='rounded-md px-2! py-0.5! font-inter font-medium not-italic text-[17px] text-white'
                 style={{
                   background: 'linear-gradient(92.329deg, rgb(173,84,240) 0.236%, rgb(210,77,188) 89.259%)',
                   width: '24.59%',
                   height: '27px',
                 }}
               >when lantern starts glowing
-              </span>
+              </span>{" "}
+            <span>and tiled courtyards look magical. Shaded alleys, where contrast becomes art and light falls in ribbons. If you only remember one thing, remember this: the best Morocco photos often happen in transitions—between day and night, between indoors and outdoors, between shadow and sunlight.</span>
             </p>
-            <p>and tiled courtyards look magical. Shaded alleys, where contrast becomes art and light falls in ribbons. If you only remember one thing, remember this: the best Morocco photos often happen in transitions—between day and night, between indoors and outdoors, between shadow and sunlight.</p>
 
           </div>
         </div>
@@ -117,7 +117,7 @@ export default function IndexTablet() {
           <div className="relative shrink-0 w-[71px] h-[71px]"><img alt="" className="absolute inset-0 object-cover pointer-events-none w-full h-full" src={imgImage55} /></div>
           <p className="font-inter font-normal not-italic text-[22px] text-black text-center whitespace-nowrap leading-normal">YouTube</p>
         </div>
-        <p className="absolute font-libre-bodoni font-normal text-[22px] text-black text-center leading-normal whitespace-nowrap" style={{ left: '253px', top: '114px', transform: 'translateX(-50%)' }}>Essential Viewing: Capturing magic moments</p>
+        <p className="absolute font-libre-bodoni font-normal text-[22px] text-black text-center leading-normal whitespace-nowrap" style={{ left: '231px', top: '114px', transform: 'translateX(-50%)' }}>Essential Viewing: Capturing magic moments</p>
         <p className="absolute font-inter font-normal not-italic text-[#afafaf] text-[15px] leading-normal" style={{ left: '30px', top: '162px', width: '420px' }}>
           Experience the tranquil beauty of Santorini sunrise through this calming 20mins video. Perfect for planning your morning routine or simply finding inner peace.
           </p>
@@ -187,7 +187,7 @@ export default function IndexTablet() {
             Markets are packed with texture: spices, slippers, textiles, lanterns. Your job is to bring order to the visual overload. Choose one "anchor" subject (like a stack of saffron or a wall of lanterns.
             Use hanging rugs{' '}
             <span
-              className="font-inter font-medium not-italic text-white rounded-[6px] inline-flex px-2"
+              className="font-inter font-medium not-italic text-white rounded-[6px] inline-flex px-2! py-0.5!"
               style={{
                 height: '27px',
                 lineHeight: '27px',
@@ -195,13 +195,16 @@ export default function IndexTablet() {
               }}
             >
               calm after the storm
-            </span>{' '}
+            </span><br />
             for one person to step into the frame—human + texture = story.  Riads:
-            calm after the storm<br />
+            calm after the storm
             Riads are interior gardens with fountains, tiled walls, and symmetry. Perfect for clean, elegant photos. Stand centered for symmetry. Capture reflections in water. Shoot details: carved wood, brass handles, mosaic edges. Gardens and graphic lines (if you visit them).
           </p>
       </div>
-      <div className="absolute rounded-[121.925px]" style={{ left: '42px', top: '4202.01px', width: '217.027px', height: '352.973px' }}>
+      <div className="absolute rounded-[121.925px]" style={{ left: '42px', top: '4202.01px', width: '217.027px', 
+        height: '352.973px' ,
+        boxShadow:'0px 4px 8px rgba(0,0,0,0.1),0px 14px 14px rgba(0,0,0,0.09),0px 32px 19px rgba(0,0,0,0.05),0px 57px 23px rgba(0,0,0,0.01),0px 89px 25px rgba(0,0,0,0)'
+        }}>
         <img alt="" className="absolute inset-0 object-cover pointer-events-none w-full h-full rounded-[121.925px]" src={imgImage94} />
       </div>
       {([4222.13, 4391] as number[]).map((top, i) => (
@@ -234,7 +237,10 @@ If you can, find a rooftop café view. From above, the square becomes a living p
         </p>
         <p>&nbsp;</p>
       </div>
-      <div className="absolute rounded-[400px]" style={{ left: '50%', top: '5175px', transform: 'translateX(-50%)', width: '568px', height: '430px' }}>
+      <div className="absolute rounded-[400px]" style={{ left: '50%', top: '5175px', transform: 'translateX(-50%)', width: '568px', 
+        height: '430px' ,
+         boxShadow:'0px 4px 8px rgba(0,0,0,0.1),0px 14px 14px rgba(0,0,0,0.09),0px 32px 19px rgba(0,0,0,0.05),0px 57px 23px rgba(0,0,0,0.01),0px 89px 25px rgba(0,0,0,0)'
+        }}>
         <img alt="" className="absolute inset-0 object-cover pointer-events-none w-full h-full rounded-[400px]" src={imgImage98} />
       </div>
       <div className="absolute flex items-center justify-center overflow-hidden px-[8px] py-[4px]" style={{ left: '50%', top: '5548px', transform: 'translateX(-50%)', width: '185px', backgroundColor: 'rgba(0,0,0,0.5)' }}>
@@ -247,7 +253,7 @@ If you can, find a rooftop café view. From above, the square becomes a living p
            Markets are packed with texture: spices, slippers, textiles, lanterns. Your job is to bring order to the visual overload. Choose one “anchor” subject (like a stack of saffron or a wall of lanterns. Use hanging rugs as a backgroundWait for one person to step into the frame—
              {' '}
             <span
-              className="font-inter font-medium not-italic text-white rounded-[6px] inline-flex px-2"
+              className="font-inter font-medium not-italic text-white rounded-[6px] inline-flex px-2! py-0.5!"
               style={{
                 height: '27px',
                 lineHeight: '27px',

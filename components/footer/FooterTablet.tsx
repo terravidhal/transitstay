@@ -19,7 +19,7 @@ export default function FooterTablet() {
             <div className="flex items-center mt-[24px] gap-[18px]">{storeAppBtn}{storePlayBtn}</div>
           </div>
           <div className="flex flex-col gap-[19px] items-start justify-center leading-normal" style={{ width: '142px' }}>
-            <p className="font-libre-bodoni font-normal text-[22px] text-center text-white" style={{ width: '128px' }}>Quick Links</p>
+            <p className="flex font-libre-bodoni font-normal text-[22px] text-center text-white" style={{ width: '128px' }}>Quick Links</p>
             <div className="flex flex-col opacity-[0.7] gap-[32px] items-start font-inter font-light not-italic text-[16px] tracking-[0.32px] w-full" style={{ color: 'rgba(255,255,255,0.8)' }}>
               <p>Account</p><p>Search Discovery</p><p>Get Mobile App</p><p>FAQs</p><p>Contact Us</p>
             </div>
